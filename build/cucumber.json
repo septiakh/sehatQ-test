@@ -1,0 +1,164 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2023-01-13T13:55:22.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5871021000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sehatq.hooks.WebdriverHook.inisialisasiWebdriver()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Verify user successfuly login using registered account",
+        "description": "",
+        "id": "sehatq---login;verify-user-successfuly-login-using-registered-account",
+        "after": [
+          {
+            "result": {
+              "duration": 79250000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sehatq.hooks.WebdriverHook.quitBrowser(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 20430765000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User open url \"sehatq.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sehatq.com\"",
+                  "offset": 14
+                }
+              ],
+              "location": "com.sehatq.steps.MainPageSteps.userOpenUrl(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4484055000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click icon profile",
+            "match": {
+              "location": "com.sehatq.steps.LoginPageSteps.userClickIconProfile()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2030942000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user input email \"test1@mailinator.com\" on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1@mailinator.com\"",
+                  "offset": 17
+                }
+              ],
+              "location": "com.sehatq.steps.LoginPageSteps.userInputEmailOnLoginPage(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 496912000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user input password \"Password1\" on login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Password1\"",
+                  "offset": 20
+                }
+              ],
+              "location": "com.sehatq.steps.LoginPageSteps.userInputPasswordOnLoginPage(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1393256000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user click Login button",
+            "match": {
+              "location": "com.sehatq.steps.LoginPageSteps.userClickLoginButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27391966000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user verify already login",
+            "match": {
+              "location": "com.sehatq.steps.LoginPageSteps.userVerifyAlreadyLogin()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SehatQ"
+          },
+          {
+            "name": "@SehatQ_Login"
+          },
+          {
+            "name": "@Scenario001"
+          }
+        ]
+      }
+    ],
+    "name": "SehatQ - Login",
+    "description": "",
+    "id": "sehatq---login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/SehatQ_Login.feature",
+    "tags": [
+      {
+        "name": "@SehatQ",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@SehatQ_Login",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
